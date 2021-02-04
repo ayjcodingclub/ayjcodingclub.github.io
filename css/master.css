@@ -5,6 +5,7 @@ body {
     padding-top: 2em; 
     padding-left: 1em;
     text-align: center;
+    background-color: #d4dbff;
 }
 nav ul, footer ul {
     font-family: 'Nunito', sans-serif;;
@@ -12,17 +13,26 @@ nav ul, footer ul {
     font-weight: bold;
     
 }
+
+.navtitle{
+    position:fixed;
+    left: 0px;
+    padding: 1em;
+    font-size: 1em;
+    font-family: 'Press Start 2P', cursive;
+    color: #5271ff;
+}
 nav ul li, footer ul li {
    
     display: inline;
     margin-right: 20px;
 }
 nav a {
-    color:dodgerblue;
+    color: #5271ff;
 }
 a {
     text-decoration: none;
-    color: #999;
+    color:#4f6cff;
 }
 a:hover {
     text-decoration: underline;
@@ -30,12 +40,12 @@ a:hover {
 h1 {
     font-size: 2em;
     font-family: 'Press Start 2P', cursive;
-    color: DodgerBlue;
+    color: #5271ff;
 }
 h2 {
     font-size: 1em;
     font-family: 'Press Start 2P', cursive;
-    color: #54b5ff;
+    color:#738cff;
 }
 h3 {
     font-size: 1em;
@@ -50,7 +60,7 @@ p {
     color: #333;
 }
 nav{
-    background-color: #e8f5ff;
+    background-color: #d4dbff;
     padding: 1em 0em 1em 0em;
     position:fixed;
     left: 0px;
@@ -60,9 +70,9 @@ nav{
 
 
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid#d4dbff;
     font-size: .8em;
-    position:absolute;
+    position:fixed;
     width:100%;
     bottom:0px;
 }
