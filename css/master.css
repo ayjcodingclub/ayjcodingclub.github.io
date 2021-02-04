@@ -1,17 +1,24 @@
 body {
     margin: 60px auto;
-     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    width: 70%;
+    font-family: 'Nunito', sans-serif;;
+    height: auto;
+    padding-top: 2em; 
+    padding-left: 1em;
+    text-align: center;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    font-family: 'Nunito', sans-serif;;
     list-style: none;
     font-weight: bold;
+    
 }
 nav ul li, footer ul li {
+   
     display: inline;
     margin-right: 20px;
+}
+nav a {
+    color:dodgerblue;
 }
 a {
     text-decoration: none;
@@ -21,18 +28,18 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 2em;
+    font-family: 'Press Start 2P', cursive;
     color: DodgerBlue;
 }
 h2 {
-    font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: DodgerBlue;
+    font-size: 1em;
+    font-family: 'Press Start 2P', cursive;
+    color: #54b5ff;
 }
 h3 {
     font-size: 1em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    
 }
 poster {
     width: 60%;
@@ -42,9 +49,22 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+nav{
+    background-color: #e8f5ff;
+    padding: 1em 0em 1em 0em;
+    position:fixed;
+    left: 0px;
+    width:100%;
+    top:0px;
+}
+
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    position:absolute;
+    width:100%;
+    bottom:0px;
 }
 
 ul.posts {
@@ -56,3 +76,14 @@ ul.posts li {
     list-style: none;
 }
 
+.blurb {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.githublink {
+    position: absolute;
+    right: 0px;
+    top: 1.5em;
+}
