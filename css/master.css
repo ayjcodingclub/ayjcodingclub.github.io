@@ -75,6 +75,8 @@ footer {
     position:fixed;
     width:100%;
     bottom:0px;
+    left: 0px;
+    background-color: #d4dbff;
 }
 
 ul.posts {
